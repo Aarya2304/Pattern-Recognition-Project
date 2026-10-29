@@ -1,5 +1,0 @@
-model,kernel,C,gamma,cv_macro_f1,cv_macro_f1_std,n_estimators,max_depth,min_samples_leaf,max_features
-SVM,linear,1.0,scale,0.915978793672132,0.02324471487773888,,,,
-SVM,rbf,1.0,scale,0.9114207639831433,0.0021851613565016526,,,,
-Random Forest,,,,0.8912429745940758,0.012966371322223669,60.0,,1.0,sqrt
-Random Forest,,,,0.8618899006597152,0.007735520516388594,80.0,16.0,2.0,0.5
