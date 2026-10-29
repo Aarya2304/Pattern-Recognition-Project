@@ -1,0 +1,33 @@
+{
+  "best_epoch": 1,
+  "best_validation_macro_f1": 0.9630991147648168,
+  "training_seconds": 3.678674199999932,
+  "validation_subjects": [
+    5,
+    7,
+    22,
+    25
+  ],
+  "fit_subjects": [
+    1,
+    3,
+    6,
+    8,
+    11,
+    14,
+    15,
+    16,
+    17,
+    19,
+    21,
+    23,
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "device": "cpu",
+  "epochs": 3,
+  "early_stopping_patience": 2
+}

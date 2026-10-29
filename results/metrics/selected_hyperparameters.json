@@ -1,0 +1,21 @@
+{
+  "svm": {
+    "model": "SVM",
+    "kernel": "linear",
+    "C": 1.0,
+    "gamma": "scale",
+    "cv_macro_f1": 0.9172062184614059,
+    "cv_macro_f1_std": 0.014347762862453851
+  },
+  "random_forest": {
+    "model": "Random Forest",
+    "n_estimators": 160,
+    "max_depth": null,
+    "min_samples_leaf": 2,
+    "max_features": "sqrt",
+    "cv_macro_f1": 0.9057326265829393,
+    "cv_macro_f1_std": 0.014104019932810121
+  },
+  "selection_metric": "mean subject-group cross-validation macro-F1",
+  "seed": 42
+}

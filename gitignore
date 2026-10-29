@@ -1,0 +1,62 @@
+# Python bytecode and cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Local datasets and generated data
+# Keep data/README.md and any small documentation files tracked.
+data/raw/
+data/processed/
+
+# Local Freebuff metadata
+.freebuff/
+
+# Duplicate backups of generated experiment outputs
+results_backup/
+results-backup/
+results_backup*/
+results-backup*/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Keep results/ tracked intentionally:
+# figures, metrics, predictions, and trained model artifacts are useful
+# for reviewing and reproducing the submitted experiment.

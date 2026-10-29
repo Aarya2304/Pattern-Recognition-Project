@@ -1,0 +1,7 @@
+{
+  "pipeline_seconds": 463.8146015,
+  "mode": "full",
+  "seed": 42,
+  "selection_metric": "macro F1",
+  "group_cv_folds": 3
+}

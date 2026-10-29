@@ -1,0 +1,51 @@
+{
+  "WALKING": {
+    "precision": 0.9060150375939849,
+    "recall": 0.9717741935483871,
+    "f1-score": 0.9377431906614786,
+    "support": 496.0
+  },
+  "WALKING_UPSTAIRS": {
+    "precision": 0.8909465020576132,
+    "recall": 0.9193205944798302,
+    "f1-score": 0.9049111807732497,
+    "support": 471.0
+  },
+  "WALKING_DOWNSTAIRS": {
+    "precision": 0.964769647696477,
+    "recall": 0.8476190476190476,
+    "f1-score": 0.9024081115335868,
+    "support": 420.0
+  },
+  "SITTING": {
+    "precision": 0.919831223628692,
+    "recall": 0.8879837067209776,
+    "f1-score": 0.9036269430051813,
+    "support": 491.0
+  },
+  "STANDING": {
+    "precision": 0.8998178506375227,
+    "recall": 0.9285714285714286,
+    "f1-score": 0.913968547641073,
+    "support": 532.0
+  },
+  "LAYING": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 537.0
+  },
+  "accuracy": 0.9290804207668816,
+  "macro avg": {
+    "precision": 0.9302300436023816,
+    "recall": 0.9258781618232784,
+    "f1-score": 0.927109662269095,
+    "support": 2947.0
+  },
+  "weighted avg": {
+    "precision": 0.9302893588358068,
+    "recall": 0.9290804207668816,
+    "f1-score": 0.9288283990217155,
+    "support": 2947.0
+  }
+}

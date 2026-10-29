@@ -1,0 +1,31 @@
+seed: 42
+data_directory: data
+results_directory: results
+sampling_frequency_hz: 50
+window_length: 128
+signal_channels:
+  - total_acc_x
+  - total_acc_y
+  - total_acc_z
+  - body_acc_x
+  - body_acc_y
+  - body_acc_z
+  - body_gyro_x
+  - body_gyro_y
+  - body_gyro_z
+cross_validation:
+  strategy: StratifiedGroupKFold
+  folds: 3
+  primary_metric: f1_macro
+svm:
+  kernels: [linear, rbf]
+  c_values: [1.0, 10.0]
+random_forest:
+  estimators: [120, 200]
+  depth: [null, 20]
+  min_samples_leaf: [1, 2]
+cnn:
+  epochs: 40
+  early_stopping_patience: 9
+  batch_size: 128
+  learning_rate: 0.001
